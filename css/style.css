@@ -18,11 +18,16 @@ h1{
 	background-color: gray;
 	border-width: 1px;
 	margin: 5px;
-	height: 100px;
 }
 
 .sectioncontent{
 	padding:5px 5px 5px 5px;
+	height:100px;
+	overflow:hidden;
+}
+
+.sectioncontent:hover{
+	cursor: ns-resize;
 }
 
 .sectionheader{
