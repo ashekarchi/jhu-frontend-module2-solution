@@ -6,6 +6,7 @@
 h1{
 	text-align: center;
 	size:1.5em;
+	margin-left:5px;
 }
 
 .column{
@@ -28,6 +29,7 @@ h1{
 
 .sectioncontent:hover{
 	cursor: ns-resize;
+	overflow: auto;
 }
 
 .sectionheader{
@@ -35,6 +37,7 @@ h1{
 	text-align: center;
 	font-weight: bold;
 	padding: 5px 0px 5px 0px;
+	border-style: solid;
 }
 
 div{
@@ -63,6 +66,9 @@ div{
 	.column{
 		width:50%;
 	}
+	#lastcolumn{
+		width:100%;
+	}
 }
 
 @media(min-width:769px){
@@ -77,6 +83,9 @@ div{
 	.desktop{
 		visibility: visible;
 	}
+	.sectionheader{
+		border-width: 0px 0px 1px 1px;
+	}
 }
 
 @media(max-width:767px){
@@ -89,5 +98,8 @@ div{
 	}
 	h1{
 		text-align:left;
+	}
+	.sectionheader{
+		border-width: 0px 0px 1px 0px;
 	}
 }
