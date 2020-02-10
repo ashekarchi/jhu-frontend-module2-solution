@@ -99,6 +99,10 @@ div{
 	.mobile{
 		visibility: visible;
 	}
+	h1.mobile{
+		font-size:1em;
+		font-family: "Times New Roman", Times, serif;
+	}
 	.desktop{
 		visibility: hidden;
 		display:none;
