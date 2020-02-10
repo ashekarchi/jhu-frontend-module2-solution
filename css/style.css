@@ -5,8 +5,12 @@
 
 h1{
 	text-align: center;
-	size:1.5em;
+	font-size:1.75em;
 	margin-left:5px;
+}
+
+body{
+	font-size:16px;
 }
 
 .column{
@@ -33,7 +37,7 @@ h1{
 }
 
 .sectionheader{
-	size:1.25em;
+	font-size:1.25em;
 	text-align: center;
 	font-weight: bold;
 	padding: 5px 0px 5px 0px;
