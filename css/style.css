@@ -71,7 +71,7 @@ div{
 	}
 }
 
-@media(min-width:769px){
+@media(min-width:768px){
 	.sectionheader{
 		float:right;
 		width:150px;
@@ -89,6 +89,9 @@ div{
 }
 
 @media(max-width:767px){
+	.column{
+		width:100%;
+	}
 	.mobile{
 		visibility: visible;
 	}
